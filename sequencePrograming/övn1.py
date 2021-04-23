@@ -4,9 +4,9 @@ in som parameter i en funktion
 """
 
 
-def square(int):
+def square(integer):
 
-    print(f"Kvadraten av talet: {int} är {int*int}")
+    print(f"Kvadraten av talet: {integer} är {integer * integer}")
 
 
 square(4)

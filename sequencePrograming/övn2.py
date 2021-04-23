@@ -12,9 +12,9 @@ Sales = int(100000)
 StartSalary = int(8000)
 
 
-def CalcSalary():
-    Salary = (Bonus * Sales) + StartSalary
-    return Salary
+def calc_salary():
+    salary = (Bonus * Sales) + StartSalary
+    return salary
 
 
-print(f"Slutlönen är: {CalcSalary()} kr")
+print(f"Slutlönen är: {calc_salary()} kr")

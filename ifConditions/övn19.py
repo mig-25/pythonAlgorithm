@@ -6,13 +6,12 @@ Den totala veckolönen beräkans och skrivs ut
 
 
 def calcWeekSalary(salaryPerHour, workHours):
-    OverTime = int()
 
     if workHours > 40:
         OverTime = workHours - 40
         WeekSalary = 40 * salaryPerHour + 1.5 * salaryPerHour * OverTime
         print(
-            f"Vecklönen är {WeekSalary}kr med {salaryPerHour} kr/timme och {workHours} timmars arbetstid ")
+            f"Vecklönen är {WeekSalary}kr med {salaryPerHour} kr/timme och {workHours} timmars arbetstid och {OverTime} övertidstimmar")
     else:
         WeekSalary = workHours * salaryPerHour
         print(

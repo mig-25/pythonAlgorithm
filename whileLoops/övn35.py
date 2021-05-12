@@ -1,4 +1,4 @@
-""" Beräkna lön, en man tjänar första dagen på sitt nya 1 öre, andra dagen
+""" Beräkna lön, en man tjänar första dagen på sitt nya jobb 1 öre, andra dagen
 2 öre, den tredje dagen 4öre osv.
 Lönen fördubblas alltså för varje dag. Beräkna hur många dagar mannen
 måste jobba för att tjäna en miljon kronor

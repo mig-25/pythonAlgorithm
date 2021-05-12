@@ -14,7 +14,7 @@ def socialSec():
     ssn = list(int(num) for num in input(
         "Mata in ditt personnr: "))
 
-    print(*ssn, sep="")
+    #print(*ssn, sep="")
     if ssn[8] % 2 == 0:
         print(f"Med personnr {ssn} är du en kvinna")
     else:

@@ -10,7 +10,7 @@
 def largerThenFirst():
     numbers = []
     largestNr = []
-    number = []
+    #number = []
 
     firstNr = int(input("Mata in första talet: "))
     numbers.append(firstNr)

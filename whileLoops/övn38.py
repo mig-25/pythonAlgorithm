@@ -21,25 +21,30 @@ Consumtion is: 0.91 liter per miles
 Average fuel consumtion is: 0.75 liter per miles
  '''
 
-sumLiter = sumMiles = numLiter = numMiles = consumtion = literPerMiles = 0.00
-counter = int(0)
+def fuelConsumtion():
 
-numLiter = float(input("Mata in antal tankade liter bensin: "))
+    sumLiter = sumMiles = numLiter = numMiles = consumtion = literPerMiles = 0.00
+    #counter = int(0)
+    counter = 0
 
-while numLiter != 0:
-    sumLiter += numLiter
-    numMiles = float(input("Mata in antal körda mil: "))
+    numLiter = float(input("Mata in antal tankade liter bensin: "))
 
-    sumMiles += numMiles
-    consumtion = numLiter / numMiles
-    counter += 1
-    print(
-        f"Tankningstillfället: {counter}.\n Du fyllde {numLiter} liter, och du körde {numMiles} mil.\n Bensinförbrukningen är {consumtion:.2f} l/m")
+    while numLiter != 0:
+        sumLiter += numLiter
+        numMiles = float(input("Mata in antal körda mil: "))
 
-    numLiter = float(input("Mata in antal liter: "))
+        sumMiles += numMiles
+        consumtion = numLiter / numMiles
+        counter += 1
+        print(
+            f"Tankningstillfället: {counter}.\n Du fyllde {numLiter} liter, och du körde {numMiles} mil.\n Bensinförbrukningen är {consumtion:.2f} l/m")
 
-    if sumMiles != 0:
-        literPerMiles = sumLiter / sumMiles
+        numLiter = float(input("Mata in antal liter: "))
+
+        if sumMiles != 0:
+            literPerMiles = sumLiter / sumMiles
 
 
-print(f"Medelförbrukningen var {literPerMiles:.2f} liter per mil")
+    print(f"Medelförbrukningen var {literPerMiles:.2f} liter per mil")
+
+fuelConsumtion()

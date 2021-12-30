@@ -1,11 +1,12 @@
 """ Beräkna ankomsttiden för ett tåg.
 Ange följande:
-    tidpunkt i timma och minut för avgången, tex 12: 41
-    körtid i timma och minuter.
-    Om minuter anges i 60 min eller mer, hantera det
+    klockslag i timma och minut för avgången, 
+    resetid i timma och minuter.
+    Om den sammanlagda ankomsttiden i minuter blir 60 min eller mer, hantera det
     genom att lägga ett påslag på variabeln för timmar.
-    Printa klockslaget för ankomsten. Om midnatt passeras ska det även stå
+    Om ankomsttimmen blir mer än kl24, och midnatt passeras ska det även stå
     "Nästa dag"
+    Printa sedan klockslaget för ankomsten. "
  """
 ArrHour = 0
 ArrMin = 0
@@ -29,8 +30,8 @@ def trainTimeTabell(depHour, depMin, travelHour, travelMin):
 
 depHour = int(input("Mata avgångstimmen: "))
 depMin = int(input("Mata avgångsminuten: "))
-travelHour = int(input("Mata ankomsttimmen: "))
-travelMin = int(input("Mata ankomstminuten: "))
+travelHour = int(input("Mata resetid i timmar: "))
+travelMin = int(input("Mata resetid i minuter: "))
 
 
 trainTimeTabell(depHour, depMin, travelHour, travelMin)

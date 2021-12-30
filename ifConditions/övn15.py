@@ -1,4 +1,4 @@
-# Ange ett tal, och skriv ut om det är jämnt tal
+# Ange två tal, med modulus svara om resultatet är jämnt tal eller udda tal
 
 def isEven(int1, int2):
     if int1 % int2 == 0:

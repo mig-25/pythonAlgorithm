@@ -1,4 +1,4 @@
-# Ange ett tal, och skriv ut om det är jämnt tal
+# Ange ett tal, och skriv ut om det är jämnt tal, kontrollera genom modulus
 
 def isEven(int):
     if int % 2 == 0:

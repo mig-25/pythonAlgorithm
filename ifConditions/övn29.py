@@ -1,10 +1,10 @@
 """ Beräkna ankomsttiden för ett tåg.
 Ange följande:
-    klockslag i timma och minut för avgången, 
-    resetid i timma och minuter.
-    Om den sammanlagda ankomsttiden i minuter blir 60 min eller mer, hantera det
+    klockslag i timme och minut för avgången, 
+    resetid i timmar och minuter.
+    Om ankomsttiden i minuter blir 60 eller mer, hantera det
     genom att lägga ett påslag på variabeln för timmar.
-    Om ankomsttimmen blir mer än kl24, och midnatt passeras ska det även stå
+    Om ankomsttimmen blir mer än kl 24, och midnatt passeras ska det även stå
     "Nästa dag"
     Printa sedan klockslaget för ankomsten. "
  """

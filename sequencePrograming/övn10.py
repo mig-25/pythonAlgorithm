@@ -1,7 +1,7 @@
-''' Omvandla Farhenheit till Celsius
+''' Omvandla Fahrenheit till Celsius
 Skapa en funktion som tar emot temp
-i farenheit från anvädaren och omvandlar
-det till celsius med två decimaler och svaret avrundas uppåt'''
+i Fahrenheit från användaren och omvandlar
+det till Celsius med två decimaler och svaret avrundas uppåt'''
 
 
 def fToC(far):

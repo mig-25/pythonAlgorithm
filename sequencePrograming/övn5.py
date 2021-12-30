@@ -1,8 +1,7 @@
 """ 
-Omvandla dollar och pund till kr 
-1 dollar är 8.45514 kr, 1 pund är 12.1283 kr
-Användaren får mata in dollar och pund 
-svaret ska vara med 2 decimaler
+Omvandla dollar och pund till kr. 
+1 dollar är 8.45514 kr, 1 pund är 12.1283 kr.
+Användaren matar in dollar och pund separat, svaret ska vara med 2 decimaler
  """
 
 sek = int()

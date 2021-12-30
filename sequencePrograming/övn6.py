@@ -1,4 +1,4 @@
-# skriv ut resultatet av formeln ax^3+7
+# skriv ut resultatet av formeln ax^3+7 med en funktion som tar in parametrar för a och x
 
 
 def formula(a, x):

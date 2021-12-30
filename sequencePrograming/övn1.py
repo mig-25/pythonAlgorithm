@@ -1,6 +1,6 @@
 """
-beräkna kvadraten till ett tal som matar 
-in som parameter i en funktion
+beräkna kvadraten till ett tal, talet ska matas 
+in som en parameter till en funktion
 """
 
 

@@ -1,6 +1,6 @@
 """ Ange radie för en cirkel,
 beräkna diameter, omkrets och area
-Enbart en funktion för användas,
+Enbart en funktion för användas, använd en konstant för Pi
 Svaret ska vara med decimaler """
 
 import constant

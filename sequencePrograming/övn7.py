@@ -1,5 +1,5 @@
 """ 
-Beräkna netto besinkostnad
+Beräkna netto bensinkostnad
 Indata:
 anal l 
 pris per l

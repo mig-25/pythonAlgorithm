@@ -1,4 +1,4 @@
-# Beräkna antal minuter och sekunder efer ha anget antal timmar
+# Omvandla 2 timmar till minuter och sekunder, använd två olika funktioner och printa svaret
 
 import math
 

@@ -1,7 +1,6 @@
-# Beräkna summan för ett serie av 3 tal, beräkna sedan deras medel
 """
 Skapa en funktion som tar in tre tal,
-låt användaren mata in tre tal
+låt användaren mata in tre tal,
 printa ut summa av de inlästa talen och printa medel 
 av de tre inlästa talen, avrunda svaret till decimaler
 Enbart en funktion med tre argument får användas

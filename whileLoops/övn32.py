@@ -1,5 +1,4 @@
-""" Så länge användaren inte matar in tecknet *,
-fortsätt att mata in nya tecken """
+""" Läs in ett antal tecken, skriva ut dessa tecken. Programmet ska avslutas när tecknet * matas in. """
 
 
 def checkChar(char):

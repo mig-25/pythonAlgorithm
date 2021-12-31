@@ -1,5 +1,4 @@
-""" Så länge användaren inte matar in siffran 0,
-fortsätt att mata in nya siffror """
+""" Läs in ett antal tal och skriv ut de, om 0 matas in avslutas programmet. """
 
 
 def checkZero(num):

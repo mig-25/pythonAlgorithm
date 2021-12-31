@@ -1,4 +1,4 @@
-''' En bilägare har för ett antal tankningar  skrivit upp antal tankade liter
+''' En bilägare har för ett antal tankningar skrivit upp antal tankade liter
 bensin och antal körda mil.
 Läs in hur många liter som har tankats, samt antal körda mil för varje
 tankningstillfälle.

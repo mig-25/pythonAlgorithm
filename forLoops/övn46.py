@@ -1,5 +1,5 @@
-""" Läs in antal ggr som du kan skriva ut siffor på skärmen
-Läs in siffran och skriv sedan ut de
+""" Läs in antal ggr du får skriva in valfria tal
+Läs in siffran och skriv sedan ut det
 Formatet ska vara följande om jag skrev in 4 för antal siffrar som ska
 ska skrivas ut.
 Antal siffran som ska printas ut måste vara dynamisk och inte vara hårdkodad

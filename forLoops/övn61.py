@@ -92,7 +92,7 @@ def compareToFirst():
         print(f"Input: {i}\n")
 
         num = float(input("Mata in ett tal: "))
-        print(f"Input: {i}\n")
+        #print(f"Input: {i}\n")
         print(f"Du matade in: {num}\n")
 
         if num > largestNr:

@@ -2,7 +2,7 @@
 10 tal ska läsas in, kontrollera om talen ligger mellan intervallet:
 50 till 100.
 Om talen ligger i detta intervall, ska ordet RÄTT! skrivas ut, annars ska
-FEL! skrivas ut. OBS! Intervall nr: et ska också skrivas ut.
+FEL! skrivas ut. OBS! Intervall nr: et ska också skrivas ut, tex Input:1 osv
 Exempel:
     
 Input: 1

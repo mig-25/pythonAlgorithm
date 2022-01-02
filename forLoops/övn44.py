@@ -1,5 +1,5 @@
 """ Beräkna och skriv ut kvadraten för talen 1 till 9
-Resultet ska skrivas i formen som "Kvadraten för 1 är: 1"
+Resultatet ska skrivas i formen som "Kvadraten för 1 är: 1"
  """
 
 

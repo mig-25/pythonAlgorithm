@@ -1,4 +1,4 @@
-""" skriv ut talen 100 - 0, dvs 100, 99, 98... 0
+""" skriv ut talen 100 - 0 baklänges, dvs 100, 99, 98... 0
  """
 
 

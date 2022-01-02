@@ -26,7 +26,7 @@ def bigDiff():
         diff = big - nextBig
 
     print(
-        f"Skillnaden mellan den största talet {big} och det näststörsta talet {nextBig} är {diff}")
+        f"Skillnaden mellan den största talet {big} och det näst största talet {nextBig} är {diff}")
 
 
 bigDiff()

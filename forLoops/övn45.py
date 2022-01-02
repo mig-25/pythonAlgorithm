@@ -4,6 +4,7 @@ Svaret ska avrundas uppåt till närmaste heltal.
 Räntan ska visas dynamisk, dvs det du läser in, och inte 
 vara hårdkodad.
 Exempel med 5.1% Ränta
+Importera och använd Math bibloteket i Python
 You choose 5.1 % interest
 _______________________________
 Annual Account Balance for Year 1 = 1051

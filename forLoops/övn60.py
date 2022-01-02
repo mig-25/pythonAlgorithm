@@ -1,5 +1,5 @@
 """ 
-Läs in 11heltal, skriv ut summan av de tal som är större än det allra
+Läs in 10 heltal, skriv ut summan av de tal som är större än det allra
 första talet som läses in, samt summan av alla som är mindre än det
 allra första talet som läses in
 Utskriften bör se ut på följande sätt om 50 var första talet:
@@ -87,7 +87,7 @@ def compareToFirst():
             smallestNr += num
 
     print(f"Summan av alla tal är större än: {firstNr} är {biggestNr}\n")
-    print(f"Summan av alla tal är större än: {firstNr} är {smallestNr}")
+    print(f"Summan av alla tal är mindre än: {firstNr} är {smallestNr}")
 
 
 compareToFirst()

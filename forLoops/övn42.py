@@ -1,4 +1,4 @@
-""" Skriv ut talen 2 - 101
+""" Skriv ut talen 0 - 100
 dvs 0, 1, 2...100
  """
 

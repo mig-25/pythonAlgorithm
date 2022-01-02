@@ -1,5 +1,5 @@
 """ Läs in 10 tal, skriv ut summan av alla
-positiva och negativa tal som läses in,
+positiva OCH negativa tal som läses in,
 Resultatet ska visas utanför loopen.
 Exempel:
 

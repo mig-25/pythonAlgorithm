@@ -1,7 +1,8 @@
 """ En array innehåller personnr, med formatet YYMMDD-NNNN.
-Kontrollera att födelsedatumet följ av en
+Kontrollera att födelsedatumet följs av en
 streck innan de fyra sista siffrorna,
-skriv ut ett fel meddelande annars.
+skriv ut ett fel meddelande annars. 
+Med andra ord, strecket ska beffina sig på indexplats 6, indexstart är alltid 0
 Exempel:
 
 Mata in ditt personr: 660125-0000

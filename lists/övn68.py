@@ -1,6 +1,7 @@
 """ Avgör med personnr om det är en man eller kvinna, med formatet YYMMDDNNNN.
 Om nästsista nr är jämnt delbart så är det en kvinna, annars en man.
 Printa ut Man eller Kvinna.
+Den nästsista nr är på indexplats 8.
 Exempel:
 Your input nr was: 6601253036
 Man

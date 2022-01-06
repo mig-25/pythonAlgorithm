@@ -1,5 +1,6 @@
 """ Läs in en array av 5 tal, skapa en ny array, och kopiera in värdet från den
 gamla arrayn i den nya, och printa ut det i omvänd ordning
+Använd dig av metoderna copy och reverse i arrayn
 Om du matar in 1, 2, 3, 4, 5 så SKA printen vara i följande format:
 
 Mata in tal: 1
@@ -19,7 +20,8 @@ def listCopyReverse():
         number = int(input("Mata in tal: "))
         list1.append(number)
 
-    list2 = list(list1)
+    #list2 = list(list1)
+    list2 = list1.copy()
     list2.reverse()
     print(f"Listan i omvänd ordning: {list2}")
 

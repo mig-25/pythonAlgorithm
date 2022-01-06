@@ -1,7 +1,6 @@
 """ Skapa en array med fem tal, fördubbla värdet på talen på varje indexplats
-i arrayn. Exempel utprinten ska vara på följande sätt, era värden kan dock
-variear beroende på siffrorna i eran array, får enbart lösas med någon typ
-av for loo.
+i arrayn.Använd en for loop till uppgiften, era värden kan dock
+varierar beroende på siffrorna i eran array.
 
 Exempel:
 

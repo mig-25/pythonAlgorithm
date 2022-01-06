@@ -1,5 +1,5 @@
 """ Läs in en array som består av nämnare och täljare, om nämnare är ett negativ, skapa ett fel meddelande,
-    sedan omvandlar du det negativa talet till ett positivt tal
+    sedan omvandlar du det negativa talet till ett positivt tal, använd * -1 för att omvandla från negativ tal
     Om du matar in 6 och -5 så SKA printen vara i följande format:
     
 Exempel:
@@ -15,10 +15,9 @@ Täljaren är 6 och nämnare är 5
 def div():
     numbers = []
 
-    number = int(input("Mata in täljaren: "))
-    numbers.append(number)
-
     for i in range(0, 1):
+        number = int(input("Mata in täljaren: "))
+        numbers.append(number)
         number = int(input("Mata in nämnaren: "))
         numbers.append(number)
         if numbers[1] <= 0:

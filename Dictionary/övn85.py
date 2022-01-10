@@ -1,4 +1,4 @@
-# En ordbok kan innehålla ordböcker, detta kallas kapslade ordböcker.
+# En Dictionary kan innehålla ordböcker, detta kallas kapslade ordböcker.
 
 myfamily = {
     "child1": {

@@ -1,4 +1,4 @@
-''' skapa ett program för att beräkna summan och medel av tal du matar in
+''' Skapa ett program för att beräkna summan och medel av tal du matar in
 Antal tal i beräkningen läser du in från användaren i en variabel kallad avg
 
 skapa en funktion kallad calcAvg,
@@ -20,10 +20,26 @@ annars kommer aldrig vilkoret i while loopen uppfyllas
 printa ut summan och medel, inget av värden ska hårdkodas i printen utan,
 hämtas från rätt variabel.
 
-Kalla på funktionen calcAvg() '''
+Kalla på funktionen calcAvg() 
+
+Exempel:
+
+Ange hur många tal som du ska beräkan summan och medel för: 5
 
 
-avg = int(input("Ange antal tal: "))
+Ange tal: 4
+Ange tal: 5
+Ange tal: 6
+Ange tal: 7
+Ange tal: 8
+
+
+Summan är: 30 och medel är: 6.0
+
+'''
+
+
+avg = int(input("Ange hur många tal som du ska beräkan summan och medel för: "))
 
 
 def calcAvg():
@@ -31,7 +47,7 @@ def calcAvg():
     sum = 0
     counter = avg
     while counter > 0:
-        num = int(input("Enter number: "))
+        num = int(input("Ange tal: "))
         sum = sum + num
         counter = counter-1
 

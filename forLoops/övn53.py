@@ -5,9 +5,9 @@ Dvs, 1*3*5....*15
 
 def odd15():
     prod = 1
-    for i in range(1, 16, 2):
+    for räknare in range(1, 16, 2):
         prod = prod + 1
-        print(f"Produkten för omgång: {i} är {prod}")
+        print(f"Produkten för omgång: {räknare} är {prod}")
 
 
 odd15()

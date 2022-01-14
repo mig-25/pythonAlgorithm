@@ -9,17 +9,33 @@ bensinförbrukning per mil skrivas ut.
 OBS! Svaret för bensinförbrukningen och slutsvaret måste visas med enbart två decimaler
 
 Exempel på utskrift:
-Refuel occasion: 1
-You filled: 79.6l, You drove: 130.2 miles
-Consumtion is: 0.61 liter per miles
-Refuel occasion: 2
-You filled: 68.6l, You drove: 90.3 miles
-Consumtion is: 0.76 liter per miles
-Refuel occasion: 3
-You filled: 89.6l, You drove: 98 miles
-Consumtion is: 0.91 liter per miles
-Average fuel consumtion is: 0.75 liter per miles
+
+Mata in antal tankade liter bensin: 78
+Mata in antal körda mil: 56
+
+ Tankningstillfället: 1.
+ Du fyllde 78.0 liter, och du körde 56.0 mil.
+ Bensinförbrukningen är 1.39 l/m 
+
+Mata in antal liter: 56
+Mata in antal körda mil: 45
+
+ Tankningstillfället: 2.
+ Du fyllde 56.0 liter, och du körde 45.0 mil.
+ Bensinförbrukningen är 1.24 l/m 
+
+Mata in antal liter: 89
+Mata in antal körda mil: 67
+
+ Tankningstillfället: 3.
+ Du fyllde 89.0 liter, och du körde 67.0 mil.
+ Bensinförbrukningen är 1.33 l/m 
+
+Mata in antal liter: 0
+
+ Medelförbrukningen var 1.33 liter per mil
  '''
+
 
 def fuelConsumtion():
 
@@ -37,14 +53,14 @@ def fuelConsumtion():
         consumtion = numLiter / numMiles
         counter += 1
         print(
-            f"Tankningstillfället: {counter}.\n Du fyllde {numLiter} liter, och du körde {numMiles} mil.\n Bensinförbrukningen är {consumtion:.2f} l/m")
+            f"\n Tankningstillfället: {counter}.\n Du fyllde {numLiter} liter, och du körde {numMiles} mil.\n Bensinförbrukningen är {consumtion:.2f} l/m \n")
 
         numLiter = float(input("Mata in antal liter: "))
 
         if sumMiles != 0:
             literPerMiles = sumLiter / sumMiles
 
+    print(f"\n Medelförbrukningen var {literPerMiles:.2f} liter per mil")
 
-    print(f"Medelförbrukningen var {literPerMiles:.2f} liter per mil")
 
 fuelConsumtion()

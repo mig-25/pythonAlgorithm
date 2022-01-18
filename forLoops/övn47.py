@@ -18,13 +18,13 @@ import math
 
 def population(endYear):
     pop = 26000
-    influx = 500
+    influx = 300
     emigrated = 325
-    startYear = 2021
+    startYear = 2020
 
     for startYear in range(startYear, endYear+1):
-        born = 0.01 * pop
-        dead = 0.005 * pop
+        born = 0.07 * pop
+        dead = 0.006 * pop
         pop = pop + (influx - emigrated) + (born - dead)
         print(f"Året: {startYear} var befolkningen {math.ceil(pop)}\n")
 

@@ -51,7 +51,8 @@ def guessNr():
         print(
             f"Din gissning nr:{counter} på siffran {guess} är rätt efter {counter} försök")
     else:
-        print('You did not guess the number, The number was ' + str(number))
+        # print('Dinna gissningar var fel, den rätta numret är:  ' + str(number))
+        print(f"Dinna gissningar var fel, den rätta numret är: {str(number)}")
 
 
 #guess = int(input("Gissa siffran: "))

@@ -39,7 +39,7 @@ Summan är: 30 och medel är: 6.0
 '''
 
 
-avg = int(input("Ange hur många tal som du ska beräkan summan och medel för: "))
+avg = int(input("Ange hur många tal som du ska beräkna summan och medel för: "))
 
 
 def calcAvg():

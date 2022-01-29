@@ -14,10 +14,11 @@ print(f"Bilen finns med följande färger: {allColors}")
 
 # med metoden get, samma resultat
 modelType = car.get("model")
+print(f"Bilen finns med följande färger: {modelType}")
 
 nrColors = len(car["colors"])
 # ta fram hur många dataplatser för ett specifikt nyckel
-print(f"Bilen finns i {modelType} modell")
+print(f"Bilen finns med {nrColors} färger")
 
 # key metoden tar fram alla nycklar i samlingen
 allKeys = car.keys()
@@ -36,7 +37,7 @@ car["year"] = 2020
 print(f"Bilen har följande data: {carData}")
 
 # ändra data med update metoden
-#car.update({"year": 2021})
+# car.update({"year": 2021})
 
 # ta fram all data i form av noder i en lista
 allItems = car.items()

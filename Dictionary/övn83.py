@@ -23,7 +23,6 @@ print("You can also use the values() method to return values of a dictionary:")
 
 for values in car.values():
     print(values)
-
 print("You can also use the keys() method to return keys of a dictionary:")
 
 for keys in car.keys():

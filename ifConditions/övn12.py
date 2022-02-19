@@ -1,14 +1,34 @@
 ''' ange två tal, testa om det första talet
 är dubbelt så stort som det andra talet,
-i så fall, skriv ut "För stort"
+printa som följande exempel:
+
+Mata in första talet: 5
+Mata in andra talet: 9
+Talet 5 * 2 är: 10, det är dubbelt så stort än 9
+
+om inte dubbel så stor, skriv inte dubbelt så stor
+printa som följande exempel:
+
+Mata in första talet: 4
+Mata in andra talet: 10
+Talet 4 * 2 är: 8, det är inte dubbelt så stort än 10
+
+annars om dem är lika skriv ut som följande exempel:
+
+Mata in första talet: 2
+Mata in andra talet: 4
+2 * 2 är: 4, dem är lika stora
  '''
 
 
 def checkDouble(in1, in2):
     if in1 * 2 > in2:
-        print("För stort")
+        print(f"Talet {in1} * 2 är: {in1*2}, det är dubbelt så stort än {in2}")
+    elif in1 * 2 < in2:
+        print(
+            f"Talet {in1} * 2 är: {in1*2}, det är inte dubbelt så stort än {in2}")
     else:
-        print("Inte för stort")
+        print(f'{in1} * 2 är: {in1*2}, dem är lika stora')
 
 
 in1 = int(input("Mata in första talet: "))

@@ -1,12 +1,13 @@
-# Ange ett tal, och skriv ut om det är jämnt tal, kontrollera genom modulus
+''' Ange tre tal, ange också en sträng, 
+Kontrollera om a är större än b, och c är större än a,
+ELLER
+om strängen d är exakt samma anges '''
 
-def isEven(int):
-    if int % 2 == 0:
-        print("Jämt tal")
-    else:
-        print("Udda tal")
-
-
-int = int(input("Mata in första talet: "))
-
-isEven(int)
+a = 200
+b = 33
+c = 100
+d = "hi"
+if (a > b and c > a) or d == "hi":
+    print("One condition is  True")
+else:
+    print("not true")

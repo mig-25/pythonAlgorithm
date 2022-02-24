@@ -1,4 +1,4 @@
-""" Läs in kropptempraturen, skriv "VARNING!!"" om temp är mindre än 35, och
+""" Läs in kropptempraturen, skriv "VARNING!!"" om temp är mindre än 35, eller
 om temp överstiger 42
  """
 

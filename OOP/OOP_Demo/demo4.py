@@ -4,7 +4,7 @@
 # Abstract class contain one or more abstract methods
 # Abstract methods has a declartion but no implementation,
 # the abstract method implementaion is done by child classes,
-# but if a abstract exists they MUST be implemented by the child class
+# but if a abstract method exists they MUST be implemented by the child class
 
 # Import abstract abc (abstract base class)
 from abc import ABC, abstractmethod

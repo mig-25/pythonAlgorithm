@@ -5,7 +5,7 @@ Resultatet ska skrivas i formen som "Kvadraten för 1 är: 1"
 
 def kvadrat():
     result = 0
-    for x in range(1, 10):
+    for x in range(1, 11):
         result = x*x
         print(f"Kvadraten av talet: {x} är {result}")
 

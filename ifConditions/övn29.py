@@ -22,7 +22,7 @@ def trainTimeTabell(depHour, depMin, travelHour, travelMin):
 
     if ArrHour >= 24:
         ArrHour = ArrHour - 24
-        print("Ankomst nästa dag")
+        print("\nAnkomst nästa dag")
 
     print(
         f"Med avgångstiden {depHour}:{depMin}, och en resetid på {travelHour}:{travelMin} så är ankomsten kl:{ArrHour}:{ArrMin}")

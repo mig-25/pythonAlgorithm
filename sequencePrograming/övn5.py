@@ -5,8 +5,8 @@ Användaren matar in dollar och pund separat, svaret ska vara med 2 decimaler
  """
 
 sek = int()
-rateDollar = float(9.1790)
-ratePund = float(12.5799)
+rateDollar = float(8.45514)
+ratePund = float(12.1283)
 
 
 def sekToDollar(USD):

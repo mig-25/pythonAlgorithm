@@ -13,7 +13,7 @@ osv.... """
 
 
 def multiplicationTable():
-    print("\t\t\tMultiplicatin Table\n")
+    print("\t\t\tMultiplication Table\n")
     for i in range(1, 13):
         print(i, end="\t")
     print()

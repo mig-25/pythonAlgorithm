@@ -14,7 +14,7 @@ print(f"Bilen finns med följande färger: {allColors}")
 
 # med metoden get, samma resultat
 modelType = car.get("model")
-print(f"Bilen finns med följande färger: {modelType}")
+print(f"Bilen finns i följande modeller: {modelType}")
 
 nrColors = len(car["colors"])
 # ta fram hur många dataplatser för ett specifikt nyckel

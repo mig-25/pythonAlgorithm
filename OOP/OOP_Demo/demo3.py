@@ -24,7 +24,7 @@ class Pet():
         self.name = name
         self.age = age
 
-    def show(self):
+    def show():
         print(f'Jag heter {self.name}, och är {self.age} år gammal')
 
     def speak(self):

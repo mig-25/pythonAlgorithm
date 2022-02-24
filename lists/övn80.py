@@ -40,7 +40,6 @@ Högsta sockernivån var 12.3 under dag 4
 Lägsta sockernivån var 3.4 under dag 1
 Medel sockernivån var 7.02 under 4 dagar
 """
-
 from numpy import mean
 
 
@@ -78,7 +77,6 @@ def bloodSugar():
     print(
         f"Lägsta sockernivån var {min(sugarLevel)} under dag {sugarLevel.index(min(sugarLevel)) + 1}")
     print(f"Medel sockernivån var {round(avg,2)} under {occour} dagar")
-    
 
 
 bloodSugar()

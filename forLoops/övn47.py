@@ -5,12 +5,16 @@
          Antal inflyttade och utflyttade uppskattas till 300 respektive 325 varje år
          Beräkna kommunens uppskattade invånarantal i början av ett visst år.
          Vilket år som ska vara slutår ska läsas in som indata
-         Exempel utdata om startåret är 2020:
-        At: 2021 the population is: 26305
-        At: 2022 the population is: 26612
-        At: 2023 the population is: 26920
-        At: 2024 the population is: 27230
-        At: 2025 the population is: 27541
+         Exempel utdata om startåret är 2022 och slutåret 2025:
+        
+        Mata in slutåret: 2025
+--------------------------------- 
+
+Året: 2023 var befolkningen 27639
+
+Året: 2024 var befolkningen 29383
+
+Året: 2025 var befolkningen 31239
  """
 
 import math
@@ -20,13 +24,13 @@ def population(endYear):
     pop = 26000
     influx = 300
     emigrated = 325
-    startYear = 2020
+    startYear = 2022
 
-    for startYear in range(startYear, endYear+1):
+    for startYear in range(startYear, endYear):
         born = 0.07 * pop
         dead = 0.006 * pop
         pop = pop + (influx - emigrated) + (born - dead)
-        print(f"Året: {startYear} var befolkningen {math.ceil(pop)}\n")
+        print(f"Året: {startYear+1} var befolkningen {math.ceil(pop)}\n")
 
 
 endYear = int(input("Mata in slutåret: "))

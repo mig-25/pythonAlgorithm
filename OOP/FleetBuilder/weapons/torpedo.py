@@ -1,8 +1,11 @@
+from copyreg import constructor
 from weapons.weapon import Weapon
 
 
 class Torpedo(Weapon):
+    # constructor
     def __init__(self):
+        # base constructor, the parent abstract class
         super(Torpedo, self).__init__()
         print("Torpedo object created...")
 

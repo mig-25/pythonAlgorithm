@@ -13,4 +13,4 @@ f = float(input("Mata in tempratur i farenheit: "))
 
 celsius = fToC(f)
 
-print(f"{f:.1f}° farenheit är {celsius:.1f}° grader celsius")
+print(f"{f:.2f}° farenheit är {celsius:.2f}° grader celsius")

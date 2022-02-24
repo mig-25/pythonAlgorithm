@@ -7,6 +7,12 @@ Mata in täljaren: 4
 Mata in nämnaren: 0
  FEL!!! Nämnare får inte vara 0
 Täljaren är 4 och nämnare är 0
+
+annars skriv ut svaret med två decimaler,
+Exempel:
+Mata in täljaren: 2
+Mata in nämnaren: 3
+Svaret är: 0.67
  """
 
 
@@ -20,8 +26,8 @@ def div():
         numbers.append(number)
         if numbers[1] == 0:
             print(f" FEL!!! Nämnare får inte vara 0")
-
-    print(f"Täljaren är {numbers[0]} och nämnare är {numbers[1]}")
+        else:
+            print(f"Svaret är: {numbers[0] / numbers[1]:.2f}")
 
 
 div()

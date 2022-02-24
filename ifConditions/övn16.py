@@ -10,9 +10,9 @@ def totalPrice(units, unitsPrice):
 
     if totalSum > 1000:
         totalSum = (totalSum * 0.9)
-        print(f"{totalSum} kr inkl 10% rabatt")
+        print(f"{totalSum:.2f} kr inkl 10% rabatt")
     else:
-        print(f"{totalSum} kr, ingen rabatt")
+        print(f"{totalSum:.2f} kr, ingen rabatt")
 
 
 units = int(input("Mata in enheter: "))

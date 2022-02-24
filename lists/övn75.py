@@ -1,6 +1,6 @@
 """ Läs in en array av 5 tal, skriv ut det största och minsta talet
 Talens index ska skrivas ut dynamisk, och inte vara hårdkodad
-Använd dig av metoden min och max för att ta redan på minsta och störta talet i arrayn
+Använd dig av metoden min och max för att ta reda på minsta och störta talet i arrayn
 Om du matar in 45, -2, 5678, -234, 6 så SKA printen vara i följande format:
 
 Mata in värdet för index 1  : 45

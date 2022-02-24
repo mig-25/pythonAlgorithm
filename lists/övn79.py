@@ -23,6 +23,7 @@ def div():
         if numbers[1] <= 0:
             print(f" FEL!!! Nämnare får inte vara 0")
             numbers[1] = numbers[1] * -1
+            print(f"Svaret är: {numbers[0] / numbers[1]:.2f}")
 
     print(f"Täljaren är {numbers[0]} och nämnare är {numbers[1]}")
 

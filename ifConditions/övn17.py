@@ -1,6 +1,6 @@
 ''' Ange två tal, dividera det första talet med det andra talet,
 Om det andra talet(nämnaren) är 0, printa fel meddelande,
-annars ska kvoten skrivas ut
+annars ska kvoten skrivas ut, svaret ska ha två decimaler
  '''
 
 
@@ -9,7 +9,7 @@ def zeroDiv(numerator, denominator):
         print("Får ej divideras med 0")
     else:
         result = numerator / denominator
-        print(f"{numerator} / med {denominator} = {result}")
+        print(f"{numerator} / med {denominator} = {result:.2f}")
 
 
 numerator = int(input("Mata in täljare: "))

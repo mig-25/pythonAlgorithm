@@ -15,9 +15,9 @@ def cirkel():
     return diameter, omkrets, area
 
 
-d = float(input("Mata in diametern: "))
+''' d = float(input("Mata in diametern: "))
 o = float(input("Mata in omkretsen: "))
-a = float(input("Mata in arean: "))
+a = float(input("Mata in arean: ")) '''
 
 diameter, omkrets, area = cirkel()
 

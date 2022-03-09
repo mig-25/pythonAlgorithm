@@ -1,4 +1,4 @@
-''' ange två tal, testa om det första talet
+''' ange två tal, dubblera första talet, testa om det första talet
 är dubbelt så stort som det andra talet,
 printa som följande exempel:
 
@@ -22,11 +22,12 @@ Mata in andra talet: 4
 
 
 def checkDouble(in1, in2):
-    if in1 * 2 > in2:
-        print(f"Talet {in1} * 2 är: {in1*2}, det är dubbelt så stort än {in2}")
-    elif in1 * 2 < in2:
+    if (in1 * 2) > in2:
         print(
-            f"Talet {in1} * 2 är: {in1*2}, det är inte dubbelt så stort än {in2}")
+            f"Talet {in1} * 2, är lika med {in1*2}, det är dubbelt så stort som {in2}")
+    elif (in1 * 2) < in2:
+        print(
+            f"Talet {in1} * 2, är lika med {in1*2}, det är inte dubbelt så stort som {in2}")
     else:
         print(f'{in1} * 2 är: {in1*2}, dem är lika stora')
 

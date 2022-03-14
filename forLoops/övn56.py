@@ -11,6 +11,8 @@
 
 osv.... """
 
+# Printa ut kolumnerna
+
 
 def multiplicationTable():
     print("\t\t\tMultiplication Table\n")
@@ -19,7 +21,9 @@ def multiplicationTable():
     print()
     print("---------------------------------------------------------------------------------------------\n")
 
-    for j in range(1, 13):
+    # Printa ut det yttre loopen, lodrätt
+    for j in range(1, 11):
+        # printa ut det inre loopen, vägrätt
         for k in range(1, 13):
             print(j*k, end="\t")
         print("\n")

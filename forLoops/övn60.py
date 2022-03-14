@@ -86,8 +86,8 @@ def compareToFirst():
         elif num < firstNr:
             smallestNr += num
 
-    print(f"Summan av alla tal är större än: {firstNr} är {biggestNr}\n")
-    print(f"Summan av alla tal är mindre än: {firstNr} är {smallestNr}")
+    print(f"Summan av alla tal som är större än: {firstNr} är {biggestNr}\n")
+    print(f"Summan av alla tal som är mindre än: {firstNr} är {smallestNr}")
 
 
 compareToFirst()

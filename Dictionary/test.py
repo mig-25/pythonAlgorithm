@@ -7,3 +7,6 @@ car = {
 
 for carInfo, carData in car.items():
     print(f"{carInfo}: {carData}")
+
+''' allItems = car.items()
+print(f"Bilen har följande data: {allItems}") '''

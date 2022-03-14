@@ -31,7 +31,7 @@ import math
 
 
 def calcF():
-    for x in range(-10, 10):
+    for x in range(-10, 11):
         f = math.pow(3*x, 3) - math.pow(5*x, 2) + 2 * x - 20
         print(f"Värdet på f är {f} om x är {x}")
 

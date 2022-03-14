@@ -1,5 +1,8 @@
-""" Läs in och bestämma hur många tal du vill summera.
-Tex om du skriver in 5, så Måste printen se ut på följande vis:
+""" Läs in och bestäm hur många tal du vill summera.
+Tex om du skriver in 5, ska det talet också vara starttalet 
+i loopen, och det är samma tal som ska adderas till summan för varje
+varv i loopen.
+Printen ser ut på följande vis:
 
     Omgång 1 är summan 5
     Omgång 2 är summan 10

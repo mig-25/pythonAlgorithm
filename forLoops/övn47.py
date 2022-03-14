@@ -1,5 +1,5 @@
 """ En kommun gör följande prognos för befolkningsutvecklingen de närmaste åren:
-         Vid början av 2020 hade kommunen 26000 invånare.
+         Vid början av 2022 hade kommunen 26000 invånare.
          Antal födda och avlidna uppskattas till 0.7 % respektive 0.6 % av
          befolkningen vid årets början
          Antal inflyttade och utflyttade uppskattas till 300 respektive 325 varje år

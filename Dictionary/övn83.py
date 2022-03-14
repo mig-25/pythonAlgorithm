@@ -1,5 +1,5 @@
 ''' Du kan loopa genom en Dictionairy med en for loop
-När du loopar genom en Dictionairy, är returvärdet är nycklarna 
+När du loopar genom en Dictionairy, är returvärdet nycklarna 
 i datasamlingen, men det finns metoder att även retunera 
 värdet till nycklarna '''
 

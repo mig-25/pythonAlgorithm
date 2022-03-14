@@ -1,6 +1,44 @@
 """ Läs in 6 positiva tal, och bestäm skillnaden mellan
 den största och minsta talet
 Exempel:
+
+Input: 1
+
+Mata in tal: 21
+Du matade in talet: 21
+
+
+Input: 2
+
+Mata in tal: 4
+Du matade in talet: 4
+
+
+Input: 3
+
+Mata in tal: 8
+Du matade in talet: 8
+
+
+Input: 4
+
+Mata in tal: 45
+Du matade in talet: 45
+
+
+Input: 5
+
+Mata in tal: 12
+Du matade in talet: 12
+
+
+Input: 6
+
+Mata in tal: 2345
+Du matade in talet: 2345
+
+
+Skillnaden mellan den största talet 2345 och det näst största talet 45 är 2300
  """
 
 

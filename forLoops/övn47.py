@@ -1,6 +1,6 @@
 """ En kommun gör följande prognos för befolkningsutvecklingen de närmaste åren:
          Vid början av 2022 hade kommunen 26000 invånare.
-         Antal födda och avlidna uppskattas till 0.7 % respektive 0.6 % av
+         Antal födda och avlidna uppskattas till 7% respektive 6% av
          befolkningen vid årets början
          Antal inflyttade och utflyttade uppskattas till 300 respektive 325 varje år
          Beräkna kommunens uppskattade invånarantal i början av ett visst år.
@@ -28,7 +28,7 @@ def population(endYear):
 
     for startYear in range(startYear, endYear):
         born = 0.07 * pop
-        dead = 0.006 * pop
+        dead = 0.06 * pop
         pop = pop + (influx - emigrated) + (born - dead)
         print(f"Året: {startYear+1} var befolkningen {math.ceil(pop)}\n")
 

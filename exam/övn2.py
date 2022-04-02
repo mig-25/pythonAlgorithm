@@ -1,7 +1,9 @@
 ''' Skapa en siffer gisningsspel där du får gissa talen mellan siffrorna
 1 till 10, du får max 5 försök.
 Importera random för att slumpa tal mellan 1 till 10, spara sedan 
-det i en variabel.
+det i en variabel. Använd metoden randint metoden i random,
+randint använder sig av två argument för att slumpa tal,
+en starttal och ett sluttal.
 Du måste använda dig av en for loop.
 Läs in spelarens namn, och printa ut enligt nedan.
 Läs sedan in en siffra, det nr du vill gissa på

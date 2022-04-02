@@ -20,7 +20,7 @@ def minMaxNr():
         numList.append(value)
 
     print(f"Det minsta talet är {min(numList)}")
-    print(f"Det minsta talet är {max(numList)}")
+    print(f"Det största talet är {max(numList)}")
 
 
 minMaxNr()

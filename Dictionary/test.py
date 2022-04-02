@@ -1,12 +1,35 @@
-car = {
-    "brand": "Saab",
-    "model": "Sport Combi",
-    "year": 2009,
-    "colors": ["red", "white", "blue"]
+Skript = {
+    "Start": "Jan",
+    "Slut": "Feb",
+    "Poang": 30,
+    "Betyg": ["G", "VG"]
 }
 
-for carInfo, carData in car.items():
-    print(f"{carInfo}: {carData}")
+Incidenthantering = {
+    "Start": "Feb",
+    "Slut": "Mars",
+    "Poang": 30,
+    "Betyg": ["G", "VG"]
+}
 
-''' allItems = car.items()
-print(f"Bilen har följande data: {allItems}") '''
+Projektarbete = {
+    "Start": "Mars",
+    "Slut": "April",
+    "Poang": 30,
+    "Betyg": ["G", "VG"]
+}
+
+ItSak = {
+    "Skript": Skript,
+    "Incidenthantering": Incidenthantering,
+    "Projektarbete": Projektarbete,
+}
+
+for info, varde in ItSak.items():
+    print(f"{info}: {varde}")
+
+# for carInfo, carData in car.items():
+#     print(f"{carInfo}: {carData}")
+
+# ''' allItems = car.items()
+# print(f"Bilen har följande data: {allItems}") '''

@@ -1,4 +1,4 @@
-""" Läs in 10 tal, skriv ut summan av alla
+""" Läs in 10 tal, antal av alla
 positiva OCH negativa tal som läses in,
 Resultatet ska visas utanför loopen.
 Exempel:

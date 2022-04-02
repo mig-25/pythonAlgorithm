@@ -1,6 +1,8 @@
-''' Skapa ett program för leta rätt på den största och minsta siffran i en lista
+''' Skapa en lista för leta rätt på den största och minsta siffran i en lista
 Låt användaren bestämma hur många siffor får finnas i listan
-Anvävnd dig av metoden min och max för detta
+Använd metoden append för att lägga till tal i listan.
+Anvävnd dig av metoden min och max i listor för att ta 
+fram största och minsta talet i listan
 
 Exempel:
 skriv antal siffrar som listan får innehålla: 4

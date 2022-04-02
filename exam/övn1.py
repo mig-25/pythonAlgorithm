@@ -1,8 +1,8 @@
-def kmToMiles(km):
-    conversionRatio = 0.621371
-    miles = km * conversionRatio
-    print(f"Avståndet i mil är: {miles:.2f} mil")
+def kToC(cel):
+    conversionRatio = 273.15
+    kelvin = cel + conversionRatio
+    print(f"{cel} celsius är: {kelvin:.2f} kelvin")
 
 
-km = float(input("Ange avståndet i km med decimaler: "))
-kmToMiles(km)
+cel = float(input("Ange tempraturen i celsius med decimaler: "))
+kToC(cel)

@@ -17,7 +17,7 @@ Största siffran är: 456678 '''
 list = []
 
 # fråga efter hur många siffror för plats i listan
-maxNrInList = int(input("skriv antal siffrar som listan får innehålla: "))
+maxNrInList = int(input("skriv antal siffror som listan får innehålla: "))
 
 # skapa en for loop, och sätt en övre gräns för loopen,
 # genom att använda dig av variablen för max antal som du skapat innan

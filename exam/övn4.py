@@ -71,12 +71,12 @@ def cart():
     while active:
         product = input("Ange vara: ")  # here i have taken keys as strings
         # here i have taken values as integers
-        cost = int(input("vad kostar varan: "))
+        cost = int(input(f"vad kostar {product}: "))
         shoppingCart[product] = cost
 
         counter = counter + 1
 
-        # Find out if anyone else if going to take the poll.
+        # Find out if you want to add more products.
         repeat = input("Vill du lägga till fler varor? (j/n) ")
         if repeat == 'n':
             active = False

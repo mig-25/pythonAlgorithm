@@ -1,3 +1,4 @@
+# Konvertera x antal grader i celsius till kelvin, svaret ska vara med två decimaler
 def kToC(cel):
     conversionRatio = 273.15
     kelvin = cel + conversionRatio

@@ -34,6 +34,7 @@ Du matade in talet: 12
 
 Input: 6
 
+
 Mata in tal: 2345
 Du matade in talet: 2345
 
@@ -43,8 +44,8 @@ Skillnaden mellan den största talet 2345 och det näst största talet 45 är 23
 
 
 def bigDiff():
-    big = -1
-    nextBig = -1
+    big = 0
+    nextBig = 0
     diff = 0
 
     for i in range(1, 7):

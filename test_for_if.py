@@ -1,3 +1,5 @@
+#Skapa en funtion för att ta reda på skillnaden mellan det minsta och största av 5 inmatade heltal
+
 def bigDiff():
     big = 0
     nextBig = 0

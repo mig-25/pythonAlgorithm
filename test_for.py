@@ -1,4 +1,5 @@
-#Skapa en funktion, Ange ett tal, detta talet ska sedan dubbleras, vidare ska ingångstalet ökas med 1 för varje varv i loopen
+#Skapa en funktion, Ange ett tal, detta talet ska sedan dubbleras, vidare ska ingångstalet ökas med 1 för varje varv i loopen, 
+# detta ska sedan upprepas 10 ggr
 def multi(num):
     
     result = 0

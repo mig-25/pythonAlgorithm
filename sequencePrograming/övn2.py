@@ -1,6 +1,6 @@
 """ 
 Beräkna slutlönen, utgå att startlönen är 8000kr, 
-Om du säljer till ett värde för 100000 får du 
+Efter du säljer till ett värde för 100000 får du 
 ett bonus på 9%.
 Vad blir ditt slutlön?
 """

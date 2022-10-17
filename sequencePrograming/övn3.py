@@ -4,7 +4,7 @@ import math
 
 
 def convertHtoM(hours):
-    return math.floor(hours*60)
+    return math.floor(hours*60) 
 
 
 def convertHtoS(hours):

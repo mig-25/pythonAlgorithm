@@ -11,9 +11,9 @@ anropa funktionen kvadrat med att ange arugmentet 4 tex
 
 
 
-def square(integer):
+def square(tal):
 
-    print(f"Kvadraten av talet: {integer} är {integer * integer}")
+    print(f"Kvadraten av talet: {tal} är {tal * tal}")
 
 
 square(4)

@@ -12,4 +12,4 @@ def convertHtoS(hours):
 
 
 print(
-    f"Answer: {2} hours is {convertHtoM(2)} minutes and {convertHtoS(2)} seconds")
+    f"Answer: {2} hours is {convertHtoM(4)} minutes and {convertHtoS(4)} seconds")

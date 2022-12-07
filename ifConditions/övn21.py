@@ -1,4 +1,5 @@
-''' Läs in ett tal, testa om talet är mindre än - 10 eller större än 10, 
+''' Läs in ett tal, testa om talet är lika med eller mindre än - 10 eller lika med eller 
+större än 10, 
 i så fall skriv ut "Talet är minst tvåsiffrigt,
 annars skriv ut "Talet är inte tvåsiffrigt"
  '''

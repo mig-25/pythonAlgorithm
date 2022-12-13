@@ -3,7 +3,7 @@ Om nästsista nr är jämnt delbart så är det en kvinna, annars en man.
 Printa ut Man eller Kvinna.
 Den nästsista nr är på indexplats 8.
 Exempel:
-Your input nr was: 6601253036
+Your input nr was: 6601255056
 Man
 Your input nr was: 6601253045
 Woman

@@ -17,8 +17,13 @@ def contactBook():
     print("\n")
     print("-------Telefonlista--------")
 
-    for name, phone in adressBook.items():
-        print(f" Namn: {name} \n Telefon: {phone}")
-
+    """ for name, phone in adressBook.items():
+        print(f" Namn: {name} \n Telefon: {phone}") """
+        
+    with open("kontakt.txt", "w") as f:
+        for key, value in adressBook.items():
+            f.write("%s: %s\n" % (key, value))
+    f = open("kontakt.txt", "r")
+    print(f.read())        
 
 contactBook()

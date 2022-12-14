@@ -21,8 +21,6 @@ def sekToPound(GBP):
 
 USD = int(input("Input $: "))
 GBP = int(input("Input £: "))
-sek = sekToDollar(USD)
-sek = sekToPound(GBP)
 
 
 print(f"{USD} dollar är: {sekToDollar(USD):.2f} kr, och {GBP} pund är: {sekToPound(GBP):.2f} kr")

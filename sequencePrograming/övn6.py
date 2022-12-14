@@ -11,4 +11,4 @@ x = int(input("Mata in x: "))
 
 answer = formula(a, x)
 
-print(f"Svaret på formeln ax^3+7 är: {answer}")
+print(f"Svaret på formeln ax^3+7 när a är {a} och x är {x} \n Svar: {answer}")

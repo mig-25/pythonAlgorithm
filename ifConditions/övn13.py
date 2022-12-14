@@ -7,6 +7,7 @@ def isEven(int):
         print("udda tal")
 
 
-int = int(input("Mata in första talet: "))
+int = int(input("Mata in ett tal: "))
+
 
 isEven(int)

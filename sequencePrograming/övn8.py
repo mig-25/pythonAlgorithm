@@ -1,4 +1,5 @@
 # Beräkna arean och omkretsen av en rektangel
+# Basen och höjden ska läsas in
 # Skapa en en enda funktion för både omkrets och area
 
 def rectangel(bas, höjd):

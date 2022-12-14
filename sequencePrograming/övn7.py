@@ -9,7 +9,7 @@ Skapa en funktion med argument för ovanstående,
 läs in dem från användaren. Rabatten från läsaren måste 
 anges som ett procenttal, tex för 5% rabatt ska användaren
 skriva in enbart 5 och inte 0.05
-Svara med slutpris, visa rabatten som användes i inläsningen.
+Svara med slutpris med 2 decimaler, visa rabatten som användes i inläsningen.
 """
 
 
@@ -25,4 +25,4 @@ disc = float(input("Rabatt: "))
 
 netFuelCost = fuelPrice(ppl, l, disc)
 
-print(f"Slutpris med {disc}% rabatt är {netFuelCost} kr")
+print(f"Slutpris med {disc}% rabatt är {netFuelCost :.2f} kr")

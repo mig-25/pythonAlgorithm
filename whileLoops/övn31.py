@@ -1,4 +1,5 @@
-""" Läs in ett antal tal och skriv ut de, om 0 matas in avslutas programmet. """
+""" Läs in ett antal tal och skriv ut de, så länge inte 0 matas in, mata in nya ta,
+om 0 matas in avslutas programmet. """
 
 
 def checkZero(num):

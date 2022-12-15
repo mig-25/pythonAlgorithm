@@ -1,8 +1,8 @@
-""" Beräkna lön, en man tjänar första dagen på sitt nya jobb 1 öre, andra dagen
-2 öre, den tredje dagen 4öre osv.
+""" Beräkna dagar för att tjäna ihop en miljon, en man tjänar första dagen på sitt nya jobb 1 öre, 
+andra dagen 2 öre, den tredje dagen 4öre osv.
 Lönen fördubblas alltså för varje dag. Beräkna hur många dagar mannen
-måste jobba för att tjäna en miljon kronor
- """
+måste jobba för att tjäna en miljon kronor """
+
 
 
 def calcSalary():

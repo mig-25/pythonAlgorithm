@@ -1,5 +1,5 @@
 """ Läs in ett tal, testa om talet är jämt delbart med 3, men inte med 30,
-I så fall divideras talet med 3
+I så fall divideras talet med 3, annars printa ut ERROR
  """
 
 

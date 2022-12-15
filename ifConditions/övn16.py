@@ -4,12 +4,12 @@ man vid ett köptillfälle handlar för mer än
 Ange antal enheter och pris per enhet
  '''
 
-
+disc = 0.9
 def totalPrice(units, unitsPrice):
     totalSum = units * unitsPrice
 
     if totalSum > 1000:
-        totalSum = (totalSum * 0.9)
+        totalSum = (totalSum * disc)
         print(f"{totalSum:.2f} kr inkl 10% rabatt")
     else:
         print(f"{totalSum:.2f} kr, ingen rabatt")

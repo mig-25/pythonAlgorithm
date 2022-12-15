@@ -1,4 +1,4 @@
-''' Omvandla Fahrenheit till Celsius
+''' Omvandla grader Fahrenheit till Celsius
 Skapa en funktion som tar emot temp
 i Fahrenheit från användaren och omvandlar
 det till Celsius med två decimaler och svaret avrundas uppåt'''

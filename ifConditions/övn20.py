@@ -1,7 +1,7 @@
-''' Läs in ett tal, testa om talet är mellan 0 till 9, i så fall skriv ut
-kvadraten.
-Annars generera en felmeddalnde
- '''
+""" Läs in ett tal, testa om talet är mellan 0 till 9, (OBS! båda vilkoren måste vara sanna) 
+i så fall skriv ut kvadraten.
+Annars generera en felmeddalnde """
+ 
 
 
 def calcKvadrat(num):

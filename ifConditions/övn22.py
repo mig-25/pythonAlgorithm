@@ -1,4 +1,4 @@
-""" Läs in ett tal, testa om talet är större än eller med 0
+""" Läs in ett tal, testa om talet är större än eller lika med 0
 eller om talet är mindre eller lika med 9, men inte 5.
 Printa ut Rätt eller Fel
  """

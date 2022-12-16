@@ -16,11 +16,11 @@ def calcWeekSalary(salaryPerHour, workHours):
         OverTime = workHours - 40
         WeekSalary = 40 * salaryPerHour + 1.5 * salaryPerHour * OverTime
         print(
-            f"Vecklönen är {WeekSalary}kr med {salaryPerHour} kr/timme och {workHours} timmars arbetstid och {OverTime} övertidstimmar")
+            f"Med en timlön på: {salaryPerHour} per timme\n och en arbetstid på {workHours} timmar\n och med en övertid på {OverTime} timmar\n så är slutlönen {WeekSalary} kr")
     else:
         WeekSalary = workHours * salaryPerHour
         print(
-            f"Vecklönen är {WeekSalary}kr med {salaryPerHour} kr/timme och {workHours} timmars arbetstid ")
+            f"Med en timlön på {salaryPerHour} per timme\n och en arbetstid på {workHours} timmar\n så är slutlönen {WeekSalary} kr")
 
 
 salaryPerHour = int(input("Mata in lön per timme: "))

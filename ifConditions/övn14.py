@@ -1,7 +1,7 @@
-''' Ange tre tal, ange också en sträng, 
+''' Ange tre tal, ange också en sträng med värdet hi, 
 Kontrollera om a är större än b, och c är större än a,
 ELLER
-om strängen d är exakt samma anges '''
+om inmatningen till strängen d är exakt samma som hi '''
 
 # Exempel
 # a = 200

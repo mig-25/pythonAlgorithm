@@ -5,18 +5,19 @@ Räntan ska visas dynamisk, dvs det du läser in, och inte
 vara hårdkodad.
 Exempel med 5.1% Ränta
 Importera och använd Math bibloteket i Python
-You choose 5.1 % interest
+Mata in räntan: 4.5
+Räntan är 4.5%
 _______________________________
-Annual Account Balance for Year 1 = 1051
-Annual Account Balance for Year 2 = 1105
-Annual Account Balance for Year 3 = 1161
-Annual Account Balance for Year 4 = 1221
-Annual Account Balance for Year 5 = 1283
-Annual Account Balance for Year 6 = 1348
-Annual Account Balance for Year 7 = 1417
-Annual Account Balance for Year 8 = 1489
-Annual Account Balance for Year 9 = 1565
-Annual Account Balance for Year 10 = 1645
+Saldot för år 1 är 1045 kronor
+Saldot för år 2 är 1093 kronor
+Saldot för år 3 är 1142 kronor
+Saldot för år 4 är 1193 kronor
+Saldot för år 5 är 1247 kronor
+Saldot för år 6 är 1303 kronor
+Saldot för år 7 är 1361 kronor
+Saldot för år 8 är 1423 kronor
+Saldot för år 9 är 1487 kronor
+Saldot för år 10 är 1553 kronor
  """
 
 import math

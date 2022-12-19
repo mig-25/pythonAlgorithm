@@ -1,59 +1,59 @@
 """ 
 10 tal ska läsas in, kontrollera om talen ligger mellan intervallet:
-50 till 100.
+om talet är större än 50 eller större än 100.
 Om talen ligger i detta intervall, ska ordet RÄTT! skrivas ut, annars ska
 FEL! skrivas ut. OBS! Intervall nr: et ska också skrivas ut, tex Input:1 osv
 Exempel:
     
 Input: 1
-Mata in tal: 1
-Du matade in talet: 1
+Mata in tal: 45
+Du matade in talet: 45
 ERROR!!!
 
 Input: 2
-Mata in tal: 2
-Du matade in talet: 2
-ERROR!!!
-
-Input: 3
-Mata in tal: 56
-Du matade in talet: 56
+Mata in tal: 67
+Du matade in talet: 67
 CORRECT!!!
 
-Input: 4
-Mata in tal: 2
-Du matade in talet: 2
+Input: 3
+Mata in tal: 11
+Du matade in talet: 11
 ERROR!!!
 
+Input: 4
+Mata in tal: 99
+Du matade in talet: 99
+CORRECT!!!
+
 Input: 5
+Mata in tal: 156
+Du matade in talet: 156
+ERROR!!!
+
+Input: 6
 Mata in tal: 89
 Du matade in talet: 89
 CORRECT!!!
 
-Input: 6
-Mata in tal: 78
-Du matade in talet: 78
-CORRECT!!!
-
 Input: 7
-Mata in tal: 897
-Du matade in talet: 897
+Mata in tal: -12349
+Du matade in talet: -12349
 ERROR!!!
 
 Input: 8
-Mata in tal: 2
-Du matade in talet: 2
-ERROR!!!
+Mata in tal: 87
+Du matade in talet: 87
+CORRECT!!!
 
 Input: 9
-Mata in tal: 66
-Du matade in talet: 66
+Mata in tal: 62
+Du matade in talet: 62
 CORRECT!!!
 
 Input: 10
-Mata in tal: 34
-Du matade in talet: 34
-ERROR!!!    
+Mata in tal: 4567
+Du matade in talet: 4567
+ERROR!!!  
  """
 
 

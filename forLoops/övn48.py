@@ -24,6 +24,7 @@ Värdet på f är 4924.0 om x är 6
 Värdet på f är 8030.0 om x är 7
 Värdet på f är 12220.0 om x är 8
 Värdet på f är 17656.0 om x är 9
+Värdet på f är 24500.0 om x är 10
 
  """
 

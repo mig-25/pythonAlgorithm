@@ -7,14 +7,14 @@
          Vilket år som ska vara slutår ska läsas in som indata
          Exempel utdata om startåret är 2022 och slutåret 2025:
         
-        Mata in slutåret: 2025
+Mata in slutåret: 2025
 --------------------------------- 
 
-Året: 2023 var befolkningen 27639
+Året: 2023 var befolkningen 26235
 
-Året: 2024 var befolkningen 29383
+Året: 2024 var befolkningen 26473
 
-Året: 2025 var befolkningen 31239
+Året: 2025 var befolkningen 26713
  """
 
 import math

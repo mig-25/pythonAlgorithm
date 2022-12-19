@@ -9,7 +9,7 @@ Exempel om x läses in som 5, och n läses in som 7:
 def calcXN(x, n):
     f = 1
 
-    for i in range(1, n+1):
+    for i in range(n):#om loopen börjar med 0, alltså default värdet så behöver inte n vara n+1
         f *= x
 
     print(

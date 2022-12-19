@@ -4,76 +4,55 @@ anges med 2 decimaler. Talordningen ska utryckas dynamisk, förutom för det
 första talet som läses in.
 Resultatet ska visas utanför loopen.
 
-Exempel på utskrift:
-
-Mata in första numret att jämföra med: 1.1
-Input 1 är: 1.1
+Input 1 är: 45.78
 -----------------------------------------------------
 
 Input: 2
 
-Mata in ett tal: 1.2
-Input: 2
+Mata in ett tal: -34.12
+Du matade in: -34.12
 
+Input: 3
+
+Mata in ett tal: -4.67
+Du matade in: -4.67
+
+Input: 4
+
+Mata in ett tal: 34567.89
+Du matade in: 34567.89
+
+Input: 5
+
+Mata in ett tal: 23.7
+Du matade in: 23.7
+
+Input: 6
+
+Mata in ett tal: 1.2
 Du matade in: 1.2
 
-Input: 3
-
-Mata in ett tal: 33.4
-Input: 3
-
-Du matade in: 33.4
-
-Input: 4
-
-Mata in ett tal: 4
-Input: 4
-
-Du matade in: 4.0
-
-Input: 5
-
-Mata in ett tal: 5678.23
-Input: 5
-
-Du matade in: 5678.23
-
-Input: 6
-
-Mata in ett tal: 11.2
-Input: 6
-
-Du matade in: 11.2
-
 Input: 7
 
-Mata in ett tal: 56.7
-Input: 7
-
-Du matade in: 56.7
+Mata in ett tal: 89.3
+Du matade in: 89.3
 
 Input: 8
 
-Mata in ett tal: 2.4
-Input: 8
-
-Du matade in: 2.4
+Mata in ett tal: 78.3
+Du matade in: 78.3
 
 Input: 9
 
-Mata in ett tal: 6.8
-Input: 9
-
-Du matade in: 6.8
+Mata in ett tal: 123.5
+Du matade in: 123.5
 
 Input: 10
 
-Mata in ett tal: 4.6
-Input: 10
+Mata in ett tal: 88.3
+Du matade in: 88.3
 
-Du matade in: 4.6
-
-Största talet var: 5678.23
+Största talet var: 34567.89
  """
 
 

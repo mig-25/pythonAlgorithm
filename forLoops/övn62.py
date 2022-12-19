@@ -6,27 +6,27 @@ Antal gånger du ska köra loopen måste printas dynamisk och inte vara hårdkod
 Exempel:
 
 Hur många gånger ska loopen köras: 4
-Du valde att köra loopen: 4
+Du valde att köra loopen: 4 gånger
 -----------------------------------------------------
 
-Mata in första talet: 56
-Din första input var: 56
+Mata in första talet: 45
+Din första input var: 45
 Mata in nästa tal: 
-34
+12
 Input: 2
-Din input var: 34
+Din input var: 12
 
 Mata in nästa tal: 
-78
+98
 Input: 3
-Din input var: 78
+Din input var: 98
 
 Mata in nästa tal: 
--987
+76
 Input: 4
-Din input var: -987
+Din input var: 76
 
-Största talet var: 78 och minsta talet var -987
+Största talet var: 98 och minsta talet var 12
  """
 
 
@@ -34,7 +34,7 @@ def minMax():
     counter = num = max = min = 0
 
     counter = int(input("Hur många gånger ska loopen köras: "))
-    print(f"Du valde att köra loopen: {counter}")
+    print(f"Du valde att köra loopen: {counter} gånger")
     print("-----------------------------------------------------\n")
 
     num = int(input("Mata in första talet: "))

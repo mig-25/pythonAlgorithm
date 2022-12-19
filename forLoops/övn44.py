@@ -8,6 +8,7 @@ def kvadrat():
     for x in range(1, 11):
         result = x*x
         print(f"Kvadraten av talet: {x} är {result}")
+    # print(f"Kvadraten av talet: {x} är {result}")
 
 
 kvadrat()

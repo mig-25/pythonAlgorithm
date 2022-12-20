@@ -1,7 +1,7 @@
 ''' Läs in värden av två tal, X och Y.  
 om X är större än 5 + Y.
-Så tilldela variablen A värdet 2
-I annat fall så tilldelas variablen A värdet 5
+Så printa att a = 2
+I annat fall Så printa att a = 5
  '''
 
 

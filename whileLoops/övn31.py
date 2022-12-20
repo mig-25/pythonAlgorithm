@@ -7,8 +7,9 @@ def checkZero(num):
         num = int(input("Mata in en siffra: "))
 
         if num == 0:
+            print(f"Siffran var {num}")
             break
-        print(f"Siffran var {num}")
+        
 
 #Börja med ett startvärde innan ni anropar funktionen och går in i loppen
 num = int(input("Mata in en siffra: "))

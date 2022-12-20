@@ -6,8 +6,9 @@ def checkChar(char):
         char = input("Mata in ett tecken: ")
 
         if char == "*":
+            print(f"Tecknet var {char}")
             break
-        print(f"Tecknet var {char}")
+        
 
 
 char = input("Mata in en tecken: ")

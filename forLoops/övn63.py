@@ -1,6 +1,6 @@
 """ 
 10 tal ska läsas in, kontrollera om talen ligger mellan intervallet:
-om talet är större än 50 eller större än 100.
+om talet är mindre än 50 eller större än 100.
 Om talen ligger i detta intervall, ska ordet RÄTT! skrivas ut, annars ska
 FEL! skrivas ut. OBS! Intervall nr: et ska också skrivas ut, tex Input:1 osv
 Exempel:
@@ -67,6 +67,7 @@ def controllRange():
         print(f"Du matade in talet: {num}")
 
         if 50 > num or num > 100:
+        #if num < 50 or num > 100:    
             print("ERROR!!!\n")
         else:
             print("CORRECT!!!\n")

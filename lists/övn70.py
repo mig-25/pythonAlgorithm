@@ -22,7 +22,7 @@ Index 10 har nu ett värde av: 4
 def addTwo():
     num = [2, 3, 5, 8, 10, 45, 1028, 1, 100000, 33, 2]
 
-    #for loops starts from to 12, but not including 12 and has an increment of 2
+    #for loops starts from 0 to 12, but not including 12 and has an increment of 2
     for i in range(0, 12, 2):
         num[i] = num[i]+2
         print(f"Index {i} har nu ett värde av: {num[i]}\n")

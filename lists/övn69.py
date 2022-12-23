@@ -28,8 +28,10 @@ def doubleValue():
 
     for i in range(1, 6):
         num = str(input("Mata in talet att fördubbla: "))
+        #num = int(input("Mata in talet att fördubbla: "))
 
         result = int(num)*2
+        #result = num*2
         print(f"Det dubbla värdet av {num} är {result}\n")
 
 

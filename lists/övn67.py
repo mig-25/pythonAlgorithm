@@ -13,7 +13,7 @@ Ditt personnr 660125-0000 var i rätt format
 def socialSec():
     ssn = []
 
-    ssn = input("Mata in ditt personr: ")
+    ssn = input("Mata in ditt personr i följande format YYMMDD-NNNN: ")
     #print(f"Personnumret du matade in var {ssn}")
 
     if ssn[6] != "-":

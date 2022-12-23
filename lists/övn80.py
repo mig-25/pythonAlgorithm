@@ -1,4 +1,6 @@
-""" Mata in blodsockret för sju dagar,
+""" OBS! För att köra denna uppgift, installera numpy
+med följande kommando: pip install numpy
+Mata in blodsockret för sju dagar,
 om blodsockret är lägre än 5 så skriv ut "För lågt",
 om blodsockret är över 10, så skriv ut "För högt",
 annars skriv ut "Normalt"

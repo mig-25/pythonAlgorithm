@@ -38,6 +38,7 @@ print(f"Bilen har följande data: {carData}")
 
 # ändra data med update metoden
 # car.update({"year": 2021})
+# print(f"Bilen har följande data: {carData}")
 
 # ta fram all data i form av noder i en lista
 allItems = car.items()

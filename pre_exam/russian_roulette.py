@@ -1,0 +1,32 @@
+import random
+
+number = random.randint(1, 6)
+print("Låt oss spela rysk roulette, hur länge kommer du leva")
+player_name = input("Tjenis, vad heter du? ")
+
+
+print(f"Okay {player_name}, gissa var kulan finns i revlovern, gissa ett tal mellan 1 till 6")
+
+
+def guessNr():
+
+    for i in range(1, 6):
+        counter = 0
+        guess = int(input("Gissa vart kulan finns, du lever om du gissar fel: "))
+        counter = counter + i
+        if guess < number:
+            print(f"Din gissning nr:{counter} på siffran {guess} är för lågt")
+        if guess > number:
+            print(f"Din gissning nr:{counter} på siffran {guess} är för högt")
+        if guess == number:
+            break
+    if guess == number:
+        print(
+            f"DU ÄR DÖD!! Din gissning nr:{counter} på siffran {guess} är rätt efter {counter} försök")
+    else:
+        # print('Dinna gissningar var fel, den rätta numret är:  ' + str(number))
+        print(f"Dinna gissningar var fel, den rätta numret är: {str(number)} och du lever")
+
+
+#guess = int(input("Gissa siffran: "))
+guessNr()

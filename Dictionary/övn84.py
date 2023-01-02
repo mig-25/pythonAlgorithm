@@ -22,4 +22,4 @@ thisdict2 = {
     "year": 1964
 }
 mydict1 = dict(thisdict2)
-print(mydict)
+print(mydict1)

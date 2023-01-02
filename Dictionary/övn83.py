@@ -23,12 +23,14 @@ print("You can also use the values() method to return values of a dictionary:")
 
 for values in car.values():
     print(values)
+    
 print("You can also use the keys() method to return keys of a dictionary:")
 
 for keys in car.keys():
     print(keys)
 
-print("Loop through both keys and values, by using the items() method::")
+print("Loop through both keys and values, by using the items() method")
 
+# carInfo and carData act like aliases for keys, values pair.
 for carInfo, carData in car.items():
     print(f"{carInfo}: {carData}")

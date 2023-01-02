@@ -18,11 +18,13 @@ def guessNr():
             print(f"Din gissning nr:{counter} på siffran {guess} är för lågt")
         if guess > number:
             print(f"Din gissning nr:{counter} på siffran {guess} är för högt")
-        if guess == number:
+        if guess == number or guess > 6:
             break
     if guess == number:
         print(
             f"DU ÄR DÖD!! Din gissning nr:{counter} på siffran {guess} är rätt efter {counter} försök")
+    elif guess > 6:
+        print(f"Din gissning nr:{counter} på siffran {guess} är ogiltig")
     else:
         # print('Dinna gissningar var fel, den rätta numret är:  ' + str(number))
         print(f"Dinna gissningar var fel, den rätta numret är: {str(number)} och du lever")

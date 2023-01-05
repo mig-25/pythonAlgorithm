@@ -1,3 +1,18 @@
+""" skapa ett spel för en revolver med sex platser i magasinet,
+
+du får sex försök att skjuta dig själv i huvudet.
+
+Du måste hålla koll på varje försök att skjuta
+
+om talet du gissar är för lågt än det som ligger dolt i revolvern, så skriv ut detta,
+
+eller om talet du gissar är för högt än det som ligger dolt i revolvern, så skriv ut detta, 
+
+annars gissningen är rätt eller att du matar in ett ogiltig gissning, alltså högre än 6,
+så lämmnar du loopen med texten du är död efter x försök
+eller om din gissning var högre än sex så skriv ut ogiltig värde,
+annars om du har gissat fel alla gånger, så skriv du lever, och kulan låg på platsnr, du kan omvandla det till en str """
+
 import random
 
 number = random.randint(1, 6)

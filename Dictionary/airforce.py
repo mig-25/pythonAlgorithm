@@ -9,9 +9,7 @@ def educations():
     while active:
 
         aeroplaneName = input("Ange flyplanets namn: ")
-        # credits = int(input(f"Hur många poäng har kursen {courseName}: "))
         missiles = int(input(f"Antal missiler {aeroplaneName}: "))
-        # courses[credits] = credits
         aeroplane[aeroplaneName] = missiles
         
 

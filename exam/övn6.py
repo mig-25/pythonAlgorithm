@@ -1,86 +1,81 @@
-""" Mata in blodsockret för sju dagar,
-om blodsockret är lägre än 5 så skriv ut "För lågt",
-om blodsockret är över 10, så skriv ut "För högt",
-annars skriv ut "Normalt"
-Dessutom ska printen visa vilken dag mätning skedde
+def educations():
+    # initialize an empty dictionary to store courses
+    courses = {}
+    # initialize an empty dictionary to store education information
+    education = {}
+    
+    student = {}
 
+    # prompt user for school name and store input in the school_name variable
+    school_name = input("Ange skolan: ")
+    # prompt user for education name and store input in the education_name variable
+    education_name = input("Ange utbildningen: ")
+    student_name = input("Ange students namn: ")
 
-Efter alla inmatningar, skriv ut det högsta och lägsta värdet,
-plus vilka dagar mätningen skedde.
-Medel sockernivån ska också vissas för den perionden mätningen skedde,
-Detta ska ske dynamisk och inte hårdkodas. 
+    # set active flag to True to enter loop
+    active = True
+    while active:
+        # prompt user for course name and store input in the course_id variable
+        course_id = input("Ange kursens id: ")
+        # prompt user for course name and store input in the course_name variable
+        course_name = input("Ange kursens namn: ")
+        # prompt user for credits and store input in the credits variable as an integer
+        credits = int(input(f"Ange antal poäng för kursen {course_name}: "))
+        print("Välj från följande betyg: VG\tG\tIG")
+        # prompt user for score for the course and store input in the score variable
+        score = input(f"Ange betyget för kursen {course_name}: ")
 
-För att åstkomma allt detta så behöver du använda dig av följande inbygga
-metoder för listor:
-.append för att lägga till värden i en lista
-.index för att återge indexvärdet i en lista, använd denna metod för att lista
-dagarna i mätningen, men indexet i en lista börjar på 0, så lägg till värdet 1
-för att visa dagen för mätningen.
-.sum för att addera alla värden i en lista, detta ska användas för att räkna ut
-medel blodsockret, så tex avg = sum(sugarLevel) / occour där sugarLevel är er
-lista och occour är variabeln för hur många dagar ni valde att mäta blodsockret.
-.min och .max för att visa den mista och högsta värdet i en lista, andvända detta
-vilken dag blodsockret var lägst och vilken dag den var högst.
+        # create a dictionary for the course
+        course = {
+            'id': course_id,  # store course name in the dictionary
+            'name': course_name,  # store course name in the dictionary
+            'credits': credits,  # store credits in the dictionary
+            'score': score  # store score in the dictionary
+        }
+        # add the course dictionary to the courses dictionary
+        courses[course_id] = course
 
-Mata in antal gånger du ska mäta ditt blodsocker : 4
-------------------------------------------------------------
+        # prompt user to see if they want to add another course
+        repeat = input("Vill du lägga till fler kurser? (j/n) ").lower()
+        # if user does not want to add another course, set active flag to False to exit loop
+        if repeat == 'n':
+            active = False
 
-Mata in blodsockret: 2.2
+    # add courses, school_name, and education_name to education dictionary
+    education['courses'] = courses
+    education['school_name'] = school_name
+    education['education_name'] = education_name
+    education['student_name'] = student_name
 
+    # open a file in write mode to store education information
+    with open("education.txt", "w") as f:
 
-Mata in blodsockret: 5.5
-
-
-Mata in blodsockret: 5.5
-
-
-Mata in blodsockret: 12.5
-
-
-Ditt blodsocker: 2.2 är för lågt!!! under dag 1
-
-Ditt blodsocker: 5.5 är normalt under dag 2
-
-Ditt blodsocker: 5.5 är normalt under dag 2
-
-Ditt blodsocker: 12.5 är för högt!!! under dag 4
-
-Högsta sockernivån var 12.5 under dag 4
-Lägsta sockernivån var 2.2 under dag 1
-Medel sockernivån var 6.42 under 4 dagar
-"""
-
-
-def bloodSugar():
-    sugarLevel = []
-
-    occour = int(input("Mata in antal gånger du ska mäta ditt blodsocker : "))
-    print("------------------------------------------------------------\n")
-
-    for i in range(occour):
-        value = float(input("Mata in blodsockret: "))
-        print("\n")
-        sugarLevel.append(value)
-
-    for value in sugarLevel:
-        index = sugarLevel.index(value)
-        if value < 5:
-            print(
-                f"Ditt blodsocker: {value} är för lågt!!! under dag {index+1}\n")
-        elif value > 10:
-            print(
-                f"Ditt blodsocker: {value} är för högt!!! under dag {index+1}\n")
+        # check if any courses have a score of "IG"
+        if any(course['score'] == "IG" for course in courses.values()):
+            # if any courses have a score of "IG", set status to "Certificate of Education"
+            status = "Utbildningsbevis"
         else:
-            print(f"Ditt blodsocker: {value} är normalt under dag {index+1}\n")
+            # if no courses have a score of "IG", set status to "Degree Certificate"
+            status = "Examensbevis"
 
-    avg = sum(sugarLevel) / occour
+        # write the status to the file
+        f.write("Utfärdat: %s\t" % status)
+        f.write("för studenten: %s \n" % student_name)
+        # write the school name and education name to the file
+        f.write("Skola: %s \t" % school_name)
+        f.write("Utbildning: %s \t" % education_name)
+        # write the total credits to the file
+        f.write("Total antal poäng: %s \n" % sum(course['credits'] for course in courses.values()))
 
-    print(
-        f"Högsta sockernivån var {max(sugarLevel)} under dag {sugarLevel.index(max(sugarLevel)) + 1}")
+        # write the course information to the file
+        for course in courses.values():
+            f.write("kurs id: %s\nnamn: %s, %s poäng, betyg: %s\n" % (course['id'], course['name'], course['credits'], course['score']))
 
-    print(
-        f"Lägsta sockernivån var {min(sugarLevel)} under dag {sugarLevel.index(min(sugarLevel)) + 1}")
-    print(f"Medel sockernivån var {avg:.2f} under {occour} dagar")
+        # open the file in read mode
+    f = open("education.txt", "r")
+    # print the contents of the file
+    print(f.read())
 
 
-bloodSugar()
+# call the educations function
+educations()

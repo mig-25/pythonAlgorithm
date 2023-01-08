@@ -27,9 +27,3 @@ ItSak = {
 
 for info, varde in ItSak.items():
     print(f"{info}: {varde}")
-
-# for carInfo, carData in car.items():
-#     print(f"{carInfo}: {carData}")
-
-# ''' allItems = car.items()
-# print(f"Bilen har följande data: {allItems}") '''

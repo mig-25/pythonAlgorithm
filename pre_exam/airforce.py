@@ -34,11 +34,12 @@ def airforces():
     # lägg till namnet på flygvapnet till dictionary airfoce
     airforce['airforcelName'] = airforcelName
     # lägg till namnet på skvadronen till dictionary airfoce
-    airforce['squadronName'] = squadronName
+    squadron['squadronName'] = squadronName
     # lägg till orten för skvadronen till dictionary squadron
-    airforce['squadronLocality'] = squadronLocality
+    squadron['squadronLocality'] = squadronLocality
     # lägg till hela dictionary för alla flygplan till dictionary squadron
     airforce['aeroplanes'] = aeroplanes
+    airforce['squadronName'] = squadron
     
     # skapa en fil med namnet airforces.txt
     with open("airforces.txt", "w") as f:
@@ -64,7 +65,7 @@ def airforces():
     print(f.read())
     
     # show all data för hela flygvapnet
-    """ for key, value in airforce.items():
-        print(f"{key} = {value}") """
+    for key, value in airforce.items():
+        print(f"{key} = {value}")
 
 airforces()

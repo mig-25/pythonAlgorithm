@@ -38,7 +38,7 @@ def airforces():
     # lägg till orten för skvadronen till dictionary squadron
     squadron['squadronLocality'] = squadronLocality
     # lägg till hela dictionary för alla flygplan till dictionary squadron
-    airforce['aeroplanes'] = aeroplanes
+    squadron['aeroplanes'] = aeroplanes
     airforce['squadronName'] = squadron
     
     # skapa en fil med namnet airforces.txt

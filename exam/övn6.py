@@ -111,6 +111,10 @@ def educations():
     f = open("education.txt", "r")
     # print the contents of the file
     print(f.read())
+    
+    #loop through education dictionary
+    for key, value in education.items():
+        print(f"{key} = {value}")
 
 
 # call the educations function

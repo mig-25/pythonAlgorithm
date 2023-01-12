@@ -1,0 +1,4 @@
+Utfärdat: Utbildningsbevis	för studenten: kalle 
+Skola: xenter 	Utbildning: itsak22 	Total antal poäng: 35 
+kurs id: itsaksql
+namn: sql, 35 poäng, betyg: IG

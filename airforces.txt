@@ -1,13 +1,10 @@
-Flygvapen: svenska 
+Flygvapen: svensk 
 
 Utfärdat: Skvadronen har flygaress
-Flygflottilj: f7,	Förlagd: luleå,	Total nedskjutna flygplan: 11
+Flygflottilj: f7,	Förlagd: kallax,	Total nedskjutna flygplan: 8
 
 -----------------Flygplan på: f7-----------------
 
 Flygplanet: viggen,
 Nedskjutna fiender: 8,	 Pilotens namn: kajsa
-
-Flygplanet: gripen,
-Nedskjutna fiender: 3,	 Pilotens namn: kalle
 

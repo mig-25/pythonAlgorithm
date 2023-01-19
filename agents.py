@@ -68,7 +68,7 @@ def printKillStatus():
         f.write("-----------------Antal lividerade agenter: %s-----------------\n\n" % sum(agent['dödadeFiender'] for agent in agents.values()))
             
         for agent in agents.values():
-            f.write("Agents namn: %s,\nAntal dödade fiender: %s,\nAgentens anställningsnr: %s\n\n" % (agent['namn'], agent['dödadeFiender'], agent['id']))
+            f.write("Agents id: %s,\nAgentens namn: %s,\nAntal dödade fiender: %s\n\n" % (agent['id'], agent['namn'], agent['dödadeFiender'],))
    
     f = open("agentStatus.txt", "r")
     print(f.read())

@@ -1,0 +1,24 @@
+Utfärdat: Utbildningsbevis för studenten: sohail
+
+Skola: emmery
+Utbildning: aviator
+
+Kurser: 
+ID: itnav
+Namn: navigation
+Poäng: 0
+Betyg: ig
+
+Total poäng: 67
+ID: itland
+Namn: landing
+Poäng: 45
+Betyg: vg
+
+Total poäng: 67
+ID: itweather
+Namn: weather
+Poäng: 22
+Betyg: g
+
+Total poäng: 67

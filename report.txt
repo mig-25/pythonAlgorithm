@@ -1,0 +1,8 @@
+day 1: 3.00
+day 2: 4.00
+day 3: 5.00
+day 4: 1.00
+day 5: 2.00
+day 6: 7.00
+day 7: 2.00
+Status: FAIL

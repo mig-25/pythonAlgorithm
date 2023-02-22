@@ -1,8 +1,8 @@
-Utfärdat: Utbildningsbevis	för studenten: kalle 
-Skola: xenter 	Utbildning: itsak22 	Total antal poäng: 85 
-kurs id: itsql
-namn: sql, 35 poäng, betyg: IG
-kurs id: itpyt
-namn: python, 30 poäng, betyg: G
-kurs id: itagl
-namn: agile, 20 poäng, betyg: VG
+Utfärdat: Utbildningsbevis	för eleven: ohoj 
+Skola: xenter 	Utbildning: skeppare 	Totala poäng: 85 
+Kurs id: mnav
+Kurs: navigering, 35 poäng, betyg: IG
+Kurs id: mkryss
+Kurs: kryssning, 20 poäng, betyg: VG
+Kurs id: mstyr
+Kurs: styrman, 30 poäng, betyg: G
